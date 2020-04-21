@@ -1,5 +1,7 @@
+dist: bionic
 
 install:
+  - sudo apt update
   - sudo apt install graphviz
 
 script:
